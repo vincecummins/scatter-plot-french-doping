@@ -1,0 +1,35 @@
+$bg: #f5f5f5;
+
+body {
+    text-align: center;
+    background-color: $bg;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tooltip {
+    font-size: 0.6em;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    position: absolute;
+    max-width: 200px;
+    background-color: #b5b5b5;
+}
+
+.strongText {
+    font-weight: bold;
+    font-size: 1.1em  !important;
+}
+
+.legendLabel {
+    font-size: 0.7em;
+}
+
+.legend {
+    fill: #b5b5b5;
+    border: 2px black solid;
+    border-radius: 2em;
+    stroke: black;
+    stroke-linecap: round;
+
+}
+
